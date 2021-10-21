@@ -1,0 +1,23 @@
+.footerstyle{
+    margin: 0;
+   
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #F2F2F2;
+    
+}
+
+.logopadding{
+    padding: 100px;
+}
+
+
+.Separator {
+    height: 1px;
+    background: #D6D6D6;
+    width: 100%;
+    margin-left: 2rem;
+}

@@ -1,0 +1,15 @@
+.cardstyle{
+    border-radius: 23px;
+}
+
+.cardImageStyle{
+    margin-top: -100px;
+    border: none !important; 
+    outline: none !important; 
+    box-shadow: none !important;
+    
+}
+
+.ProductCardStyle{
+    padding-top: 100px;
+}
