@@ -8,13 +8,13 @@ import Logo from '../../elements/Logo/Logo';
 
 function Footer() {
     return (
-        <div className={classes.footerstyle}>
+        <div className={classes.footerstyle} className="bg-gray-900	">
         <Container>
-        <footer className="p-10 footer bg-neutral text-neutral-content rounded-xl p-8">
+        <footer className="p-10 footer text-neutral-content rounded-xl p-8 bg-gray-900	" >
         <div>
             <Logo />
-            <p>ACME Industries Ltd.
-            <br/>Providing reliable tech since 1992
+            <p>TechPicker Bangladesh.
+            <br/>Providing reliable tech since 2020
             </p>
         </div> 
         <div>
@@ -36,6 +36,7 @@ function Footer() {
                 </svg>
             </a>
             </div>
+            
         </div>
         </footer>
         </Container>

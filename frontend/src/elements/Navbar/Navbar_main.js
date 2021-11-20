@@ -13,7 +13,7 @@ import classes from './Navbar_main.module.css';
 function Navbar_main() {
     return(
         <div>
-        <Navbar collapseOnSelect expand="lg"  variant="dark" className={classes.nav_style} className="bg-neutral">
+        <Navbar collapseOnSelect expand="lg"  variant="dark" className={classes.nav_style} >
         <Container>
         <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
